@@ -1,5 +1,5 @@
 #!/bin/bash
-# Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/installer.sh -O - | /bin/sh
+# Command=wget https://raw.githubusercontent.com/tarek1902/refs/heads/main/levi45emulator/installer.sh -O - | /bin/sh
 
 ##########################################
 echo ">>> Download And Install Plugin Levi45 Emulator <<<"
@@ -7,7 +7,7 @@ TEMPATH="/tmp"
 MY_NAME="enigma2-plugin-extensions-levi45emulator_all"
 MY_IPK="${MY_NAME}.ipk"
 MY_DEB="${MY_NAME}.deb"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator"
+MY_URL="https://raw.githubusercontent.com/tarek1902/refs/heads/main/levi45emulator"
 
 # Detect system type
 if which dpkg > /dev/null 2>&1; then
@@ -44,7 +44,7 @@ set +e
 cd ..
 
 echo "================================="
-echo "   UPLOADED BY  >>>>   EMIL_NABIL "
+echo "   UPLOADED BY  >>>>  TAREK-HANFY "
 sleep 4
 echo "#                Restarting Enigma2 GUI                    #"
 echo "#########################################################"
